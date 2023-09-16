@@ -4,6 +4,36 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>uwap.TCP</PackageId>
+    <Title>TCP library</Title>
+    <Version>2.0.1</Version>
+    <Authors>pmpwsk</Authors>
+    <Company>uwap.org</Company>
+    <Description>Cross-platform .NET library written in C# that allows you to easily create server-client communication using TCP messages.</Description>
+    <Copyright>uwap.org</Copyright>
+    <PackageProjectUrl>https://uwap.org/projects/tcp</PackageProjectUrl>
+    <PackageIcon>u-128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/pmpwsk/TCP</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>library;tcp;dotnet</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="u-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
